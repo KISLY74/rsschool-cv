@@ -16,3 +16,35 @@ I am 19 years old. I am studying at university. I have the desire and ability to
 * **_Git(Basic)_**
 * **_SQL(Medium)_**
 * **_C++(Medium)_**
+
+# Example code
+`function isIsogram(str) {
+    var bool
+    str = str.toLowerCase()
+    var str_new = []
+    if (str.length === 0) {
+       bool = true
+    }
+    for (var i in str) {
+       str_new.push(str[i])
+    }
+      str = str.split("")
+       let result = []
+    for (var i of str) {
+       if (!result.includes(i)) {
+          result.push(i);
+       }
+    } str_new = str_new.join("")
+    for (var i in str_new) {
+       if (result[i] === str_new[i]) {
+          bool = true
+          console.log(result[i])
+          console.log(str_new[i])
+      }
+       else {
+          bool = false
+      }
+    }
+    result = result.join("")
+    console.log(bool)
+ }`
