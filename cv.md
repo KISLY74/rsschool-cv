@@ -18,7 +18,8 @@ I am 19 years old. I am studying at university. I have the desire and ability to
 * **_C++(Medium)_**
 
 # Example code
-```function isIsogram(str) {
+```javascript
+function isIsogram(str) {
     var bool
     str = str.toLowerCase()
     var str_new = []
@@ -47,4 +48,4 @@ I am 19 years old. I am studying at university. I have the desire and ability to
     }
     result = result.join("")
     console.log(bool)
- }```
+ }
