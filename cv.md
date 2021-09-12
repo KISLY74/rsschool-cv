@@ -56,3 +56,6 @@ function isIsogram(str) {
 # Education
 I am a third-year student at Baranovichi State University.
 
+# English level 
+I have an A1 level of English on the EPAM test, but I can talk about some English topics and I am ready to learn, I also read educational articles on English. Taking many steps forward to improve my English. 
+
