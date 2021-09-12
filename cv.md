@@ -53,3 +53,6 @@ function isIsogram(str) {
 
 # Experience
 
+# Education
+I am a third-year student at Baranovichi State University.
+
