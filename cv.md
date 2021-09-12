@@ -55,6 +55,7 @@ function isIsogram(str) {
 
 # Education
 I am a third-year student at Baranovichi State University.
+* **_I've been watching courses on Javascript, HTML and CSS on various YouTube channels. I read the tutorial https://learn.javascript.ru/ about JS_**
 
 # English level 
 I have an A1 level of English on the EPAM test, but I can talk about some English topics and I am ready to learn, I also read educational articles on English. Taking many steps forward to improve my English. 
