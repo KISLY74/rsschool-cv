@@ -118,7 +118,7 @@ figure {
    top: 198px;
    left: 25px;
    border-top-right-radius: 40px;
-   height: 1480px;
+   height: 1580px;
    width: 40px;
    background-color: rgb(255, 238, 0);
 }
@@ -169,7 +169,141 @@ figure ul li img {
    margin-right: 20px;
 }
 /*************************/
-
+@media (max-width: 1050px) {
+   header {
+      width: 800px;
+   }
+   header figure ul li img {
+      margin-bottom: 10px;
+   }
+   header figure ul {
+      top: 55%;
+   }
+   main {
+      max-width: 800px;
+   }
+   section h2 {
+      width: 800px;
+   }
+   footer {
+      max-width: 800px;
+   }
+   h2.h2 {
+      max-width: 400px;
+   }
+   .line-between-two-section {
+      left: 300px;
+   }
+   .line-under-image {
+      height: 1690px;
+   }
+   .two-section-of-one section {
+      max-width: 400px;
+   }
+   .example-code img {
+      max-width: 280px;
+   }
+   header figure h2 {
+      max-width: 550px;
+   }
+}
+@media (max-width: 840px) {
+   .line-under-image {
+      top: 136px;
+   }
+   header {
+      width: 600px;
+   }
+   main {
+      max-width: 600px;
+   }
+   figure h1 {
+      font-size: 40px;
+   }
+   header figure h2 {
+      left: 160px;
+      top: 72px;
+      max-width: 440px;
+   }
+   .line-under-image {
+      height: 2450px;
+   }
+   header figure ul {
+      display: flex;
+      flex-direction: row;
+      top: 90%;
+      left: 5em;
+   }
+   header figure ul li img {
+      margin-right: 10px;
+   }
+   header figure ul li {
+      display: flex;
+      flex-direction: row;
+      margin-right: 5px;
+   }
+   footer {
+      max-width: 600px;
+   }
+   .block-image-ava img {
+      width: 150px;
+      border: 15px solid rgb(255, 238, 0);
+   }
+   h2.h2 {
+      min-width: 600px;
+      max-width: 600px;
+   }
+   section h2 {
+      width: 600px;
+   }
+   .two-section-of-one {
+      flex-direction: column;
+   }
+   .two-section-of-one section {
+      max-width: 300px;
+   }
+   .line-between-two-section {
+      visibility: hidden;
+   }
+}
+@media (max-width: 640px) {
+   header figure ul li {
+      display: flex;
+   }
+   .line-under-image {
+      height: 3120px;
+   }
+   header figure ul {
+      top: 60%;
+      left: 12em;
+      display: flex;
+      flex-direction: column;
+   }
+   header {
+      width: 400px;
+   }
+   main {
+      max-width: 400px;
+   }
+   header figure h2 {
+      max-width: 240px;
+      font-size: 20px;
+   }
+   h2.h2 {
+      min-width: 400px;
+      max-width: 400px;
+   }
+   main section h2 {
+      font-size: 20px;
+      max-width: 400px;
+   }
+   footer {
+      max-width: 400px;
+   }
+   footer section a img{
+      max-width: 70px;
+   }
+}
 /*************************/
 main {
    display: flex;
@@ -198,6 +332,12 @@ main section article {
    font-size: 20px;
    font-style: italic;
    color: rgba(255, 255, 255, 0.7);
+}
+main section article h4 {
+   font-size: 24px;
+   color: #000;
+   font-weight: bold;
+   margin-bottom: 15px;
 }
 main section ul {
    margin: 0 100px;
