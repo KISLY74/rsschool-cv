@@ -118,7 +118,7 @@ figure {
    top: 198px;
    left: 25px;
    border-top-right-radius: 40px;
-   height: 1480px;
+   height: 1580px;
    width: 40px;
    background-color: rgb(255, 238, 0);
 }
@@ -198,6 +198,12 @@ main section article {
    font-size: 20px;
    font-style: italic;
    color: rgba(255, 255, 255, 0.7);
+}
+main section article h4{
+   font-size: 24px;
+   color: #000;
+   font-weight: bold;
+   margin-bottom: 15px;
 }
 main section ul {
    margin: 0 100px;
